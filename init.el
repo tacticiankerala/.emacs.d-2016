@@ -1,0 +1,22 @@
+(require 'cask "/usr/local/Cellar/cask/0.7.2_1/cask.el")
+(cask-initialize)
+(require 'pallet)
+
+(add-to-list 'load-path "~/.emacs.d/vendor")
+(add-to-list 'load-path "~/.emacs.d/custom")
+
+;;(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/noctilux-theme")
+
+(load "00common-setup.el")
+(load "01custom-func.el")
+(load "02appearance.el")
+(load "03bindings.el")
+(load "04common-hooks.el")
+(load "05auto-complete.el")
+(load "06projectile.el")
+(load "07clojure.el")
+(load "08web-mode.el")
+(load "09yasnippet-setup.el")
+(load "10sql-setup.el")
+(load "11jsx-mode.el")
+(put 'erase-buffer 'disabled nil)

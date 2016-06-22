@@ -1,0 +1,10 @@
+.cask/
+/TAGS
+/ac-comphist.dat
+auto-save-list/
+eshell/
+/ido.last
+/projectile-bookmarks.eld
+/projectile.cache
+saves/
+/smex-items

@@ -17,8 +17,8 @@
 
 ###Basic
 - [cheatesheet](https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf)
-- `Ctrl-c-<arrow>` keys to navigate buffers
-- `Shift-<left/right arrow>` to jump words
+- `Shift-<left/right/top/down arrow>` to navigate buffers
+- `Ctrl-Shift-<left/right/top/down arrow>` to swap buffers
 - `M-<up/down arrow>` to pull lines up or down
 - `Ctrl-Del` to backward delete word
 - `Ctrl-Shift-Del` to delete entire line

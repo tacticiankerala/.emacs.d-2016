@@ -4,14 +4,15 @@
 
 ;; Use windmove bindings
 ;; Navigate between windows using Ctrl-Shift-left, Ctrl-shift-up, shift-right
-(global-set-key (kbd "C-c <left>")  'windmove-left)
-(global-set-key (kbd "C-c <right>") 'windmove-right)
-(global-set-key (kbd "C-c <up>")    'windmove-up)
-(global-set-key (kbd "C-c <down>")  'windmove-down)
+(global-set-key [S-left]  'windmove-left)
+(global-set-key [S-right] 'windmove-right)
+(global-set-key [S-up]    'windmove-up)
+(global-set-key [S-down]  'windmove-down)
+(global-set-key [C-S-left]  'buf-move-left)
+(global-set-key [C-S-right] 'buf-move-right)
+(global-set-key [C-S-up]    'buf-move-up)
+(global-set-key [C-S-down]  'buf-move-down)
 
-;;bind move word
-(global-set-key [S-right] 'forward-word)
-(global-set-key [S-left]  'backward-word)
 
 (global-set-key (kbd "C-=") 'er/expand-region)
 

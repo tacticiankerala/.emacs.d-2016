@@ -4,6 +4,7 @@
 (depends-on "align-cljlet")
 (depends-on "auto-complete")
 (depends-on "bind-key")
+(depends-on "buffer-move")
 (depends-on "cask")
 (depends-on "cider")
 (depends-on "circe")

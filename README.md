@@ -4,15 +4,17 @@
 - Install ctags: `brew install ctags` (ctag binary should be /usr/local/bin/ctags)
 - Install silver searcher `brew install the_silver_searcher`
 - Fix emacs terminfo
-  -- find eterm-color.ti inside emacs folder
-  -- run `tic -o ~/.terminfo <path to eterminfo>/eterm-color.ti`
-  -- add following to your ~/.zshrc
+  - find eterm-color.ti inside emacs folder
+  - run `tic -o ~/.terminfo <path to eterminfo>/eterm-color.ti`
+  - add following to your ~/.zshrc. More info: http://stackoverflow.com/questions/8918910/weird-character-zsh-in-emacs-terminal
+
   ```
         export LANG=en_US.UTF-8
         export LC_ALL=en_US.UTF-8
         export TERM=xterm-256color
   ```
-  -- more info: http://stackoverflow.com/questions/8918910/weird-character-zsh-in-emacs-terminal
+  
+
 ###Basic
 - [cheatesheet](https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf)
 - `Ctrl-c-<arrow>` keys to navigate buffers

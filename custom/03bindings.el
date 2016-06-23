@@ -17,9 +17,6 @@
 
 (global-set-key (kbd "C-M-\\") 'indent-region)
 
-(require 'neotree)
-(global-set-key  (kbd "C-t") 'neotree-toggle)
-
 (require 'align-by-current-symbol)
 (global-set-key (kbd "C-\\") 'align-by-current-symbol)
 

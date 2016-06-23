@@ -1,9 +1,18 @@
 ###Installation
 - Install emacs: `brew install emacs --use-git-head --cocoa --srgb`
-- Install [Cask](https://github.com/cask/cask)
+- Install [Cask](https://github.com/cask/cask) and add cask path into `init.el`
 - Install ctags: `brew install ctags` (ctag binary should be /usr/local/bin/ctags)
 - Install silver searcher `brew install the_silver_searcher`
-
+- Fix emacs terminfo
+  -- find eterm-color.ti inside emacs folder
+  -- run `tic -o ~/.terminfo <path to eterminfo>/eterm-color.ti`
+  -- add following to your ~/.zshrc
+  ```
+        export LANG=en_US.UTF-8
+        export LC_ALL=en_US.UTF-8
+        export TERM=xterm-256color
+  ```
+  -- more info: http://stackoverflow.com/questions/8918910/weird-character-zsh-in-emacs-terminal
 ###Basic
 - [cheatesheet](https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf)
 - `Ctrl-c-<arrow>` keys to navigate buffers
@@ -21,7 +30,7 @@
 - `Ctrl-=` to expand region
 - `Ctrl-x Ctrl-x` to open smex (this hack is for mac terminal)
 - `Ctrl-x f' to run projectile-find-file
-- `Ctrl-t` to toggle neotree
+- `Ctrl-t` to toggle zsh shell prompt
 
 ###Other function
 - nuke-all-buffers

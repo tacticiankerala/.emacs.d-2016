@@ -72,6 +72,6 @@
 
 ###Yet to try
 - https://github.com/knu/elscreen
-  -- create new `C-z c`
-  -- switch to screen n `C-z <n>`
-  -- kill `C-z k`
+  - create new `C-z c`
+  - switch to screen n `C-z <n>`
+  - kill `C-z k`
